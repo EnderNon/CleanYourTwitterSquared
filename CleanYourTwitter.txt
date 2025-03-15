@@ -43,7 +43,7 @@ x.com###wtf
 
 ! Sidebar - endernon edition 
 
-! remove the verified orgs because nobody gives a fuck about that. 
+! remove the verified orgs because nobody cares about that lets be honest. 
 ! First one is for expanded (wider screen), second is for icon only (smaller width screen)
 x.com##a[aria-label="Verified Orgs"]
 ! Remove the jank stuff from the "More" tab on the left
@@ -51,3 +51,10 @@ x.com##a div div span:has-text(Ads):upward(3)
 x.com##a div div span:has-text(Monetization):upward(3)
 x.com##a div div span:has-text(Jobs):upward(3)
 x.com##a div div span:has-text(Create your Space):upward(3)
+
+! Grox AI - it can go fuck itself with a metal pipe
+
+! Grok button in tweet compose
+x.com##div button[aria-label='Enhance your post with Grok']
+! Grok button in bottom right
+x.com##div div[data-testid="GrokDrawer"]
