@@ -1,4 +1,3 @@
->### Note
 # CleanYourTwitterSquared: An expanded collection of  Twitter (Now known as X) web filters for a cleaner experience
 
 Stupid shit filters for Twitter (Now known as X). Removes a lot of annoyances.
