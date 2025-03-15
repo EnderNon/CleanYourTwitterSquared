@@ -58,3 +58,14 @@ x.com##a div div span:has-text(Create your Space):upward(3)
 x.com##div button[aria-label='Enhance your post with Grok']
 ! Grok button in bottom right
 x.com##div div[data-testid="GrokDrawer"]
+! Grok button in expanded view
+x.com##div div div button[aria-label="Grok actions"]:upward(1)
+! Grok explain tweet / tweet reply
+##div button[aria-label="Grok actions"]:upward(1)
+
+! Subscribe buttons
+
+! In expanded view. The issue is, by having this the follow button just isn't there and it might make you think you're already following. Enable it if you so desire.
+! x.com##div div div button[aria-label*="Subscribe to "]
+! In dropdown in expanded view
+x.com##div div[data-testid="Dropdown"] div div div span:has-text(Subscribe to ):upward(3)
