@@ -61,7 +61,9 @@ x.com##div div[data-testid="GrokDrawer"]
 ! Grok button in expanded view
 x.com##div div div button[aria-label="Grok actions"]:upward(1)
 ! Grok explain tweet / tweet reply
-##div button[aria-label="Grok actions"]:upward(1)
+x.com##div button[aria-label="Grok actions"]:upward(1)
+! Grok profile summary
+x.com##button[aria-label="Profile Summary"] div span:upward(2)
 
 ! Subscribe buttons
 
@@ -69,3 +71,7 @@ x.com##div div div button[aria-label="Grok actions"]:upward(1)
 ! x.com##div div div button[aria-label*="Subscribe to "]
 ! In dropdown in expanded view
 x.com##div div[data-testid="Dropdown"] div div div span:has-text(Subscribe to ):upward(3)
+! In profile view (already following, replaces big follow text button)
+x.com##div div button[aria-label*="Subscribe to"] div span span:has-text("Subscribe"):upward(5)
+! In profile view (not followed yet, circle purple button)
+x.com##div div div button[aria-label*="Subscribe to"] div span:has-text(""):upward(2)
