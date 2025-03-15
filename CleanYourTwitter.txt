@@ -40,3 +40,14 @@ x.com##[aria-label$="trending now" i]
 ! Sidebar - Who to follow/You might like
 x.com##[aria-label="who to follow" i]:upward(1)
 x.com###wtf
+
+! Sidebar - endernon edition 
+
+! remove the verified orgs because nobody gives a fuck about that. 
+! First one is for expanded (wider screen), second is for icon only (smaller width screen)
+x.com##a[aria-label="Verified Orgs"]
+! Remove the jank stuff from the "More" tab on the left
+x.com##a div div span:has-text(Ads):upward(3)
+x.com##a div div span:has-text(Monetization):upward(3)
+x.com##a div div span:has-text(Jobs):upward(3)
+x.com##a div div span:has-text(Create your Space):upward(3)
