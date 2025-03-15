@@ -1,8 +1,8 @@
-! Title: CleanYourTwitter
-! Dev: robonxt
-! Description: Adblock filters for Twitter. Removes Promoted Tweets, You Might Like, Who to Follow, What's Happening, More Tweets, and other annoyances.
-! Homepage: https://github.com/robonxt/CleanYourTwitter
-! Last updated: May 24, 2024
+! Title: CleanYourTwitterSquared
+! Dev: endernon
+! Description: Adblock filters for Twitter. Removes a lot of annoyance. Forked off of robonxt's CleanYourTwitter.
+! Homepage: https://github.com/EnderNon/CleanYourTwitterSquared
+! Last updated: March 15, 2025
 
 ! How to use: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
 
