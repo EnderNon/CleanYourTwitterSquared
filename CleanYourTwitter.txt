@@ -51,6 +51,11 @@ x.com##a div div span:has-text(Ads):upward(3)
 x.com##a div div span:has-text(Monetization):upward(3)
 x.com##a div div span:has-text(Jobs):upward(3)
 x.com##a div div span:has-text(Create your Space):upward(3)
+! Twitter sidebar bullshit halloween 2025 edition:
+! Lists
+x.com##header[role="banner"] div div div div div nav a[aria-label*="Lists"][role="link"]
+! Premium
+x.com##header[role="banner"] div div div div div nav a[aria-label*="Premium"][role="link"]
 
 ! Grox AI - it can go fuck itself with a metal pipe
 
